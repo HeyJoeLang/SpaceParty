@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1890111309, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeInFrames: 0
+  timeAreaShownRange: {x: -0.096030995, y: 29.990479}
+  showAudioWaveform: 1
+  trackHeight: 30
+  trackScale: 1
+  playRangeEnabled: 0
+  timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
+  windowTime: 0
+  verticalScroll: 0
+  m_Keys:
+  - {fileID: 114133684445694736, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114018405579831796, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114015914038954364, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114363830966382078, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114477179532343568, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114477410721739984, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114249498412550520, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114579206722080102, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114154083871159334, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114095717370160432, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114284436691865750, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114447247596842512, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114756209525703306, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114392866321630252, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114160281386529854, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114079631894284120, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114608406944806578, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114449454301245062, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114096491474150866, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114557172030536606, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114755866759246872, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114809418607433760, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  - {fileID: 114137817127663716, guid: e2298bd1adc3f474999e665a06426ce2, type: 2}
+  m_Vals:
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
