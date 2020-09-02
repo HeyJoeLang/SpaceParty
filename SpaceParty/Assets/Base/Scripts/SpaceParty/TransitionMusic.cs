@@ -4,26 +4,45 @@ using UnityEngine;
 
 public class TransitionMusic : MonoBehaviour {
     public AudioSource speaker;
-    public AudioClip[] song1, song2;//, song3;
+    public AudioClip[] song1, song2;
+    public GameObject song1_image, song2_image;
     public AudioClip[] clips;
+    public AudioClip defaultMusic;
 
-    public int counter = -1;
-    float currentSongMoment;
+    int songSelection = 1;
+    int counter = 0;
+    float currentSongTime;
 
     private void Start()
     {
         clips = song1;
     }
-    public void SetMusic(int index)
+    public void ToggleMusicSelection()
     {
-        switch (index)
+        songSelection = songSelection == 1 ? 2 : 1;
+        switch (songSelection)
         {
-            case 1: clips = song1; break;
-            case 2: clips = song2; break;
-        //    case 3: clips = song3; break;
+            case 1:
+                clips = song1;
+                song1_image.SetActive(true);
+                song2_image.SetActive(false);
+                speaker.clip = song1[4];
+                speaker.Play();
+                break;
+            case 2:
+                clips = song2;
+                song1_image.SetActive(false);
+                song2_image.SetActive(true);
+                speaker.clip = song2[4];
+                speaker.Play();
+                break;
             default: break;
         }
-        //speaker.clip = clips[0];
+    }
+    public void SetDefaultMusic()
+    {
+        speaker.clip = defaultMusic;
+        speaker.Play();
     }
     public void TransitionUp()
     {
@@ -40,17 +59,12 @@ public class TransitionMusic : MonoBehaviour {
     }
     private void Transition()
     {
-        currentSongMoment = speaker.time;
+        currentSongTime = speaker.time;
         speaker.clip = clips[counter];
-        speaker.time = currentSongMoment;
+        speaker.time = currentSongTime;
         speaker.Play();
     }
 
-	void Update () {/*
-        if (Input.GetKeyDown(KeyCode.L))
-            TransitionUp();
-        if (Input.GetKeyDown(KeyCode.K))
-            TransitionDown();
-            */
+	void Update () {
     }
 }
